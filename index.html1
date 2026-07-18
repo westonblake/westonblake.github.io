@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weston Blake | Shopify Architect</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body { background-color: #050505; color: #ededed; }
+        .card { background: #0a0a0a; border: 1px solid #1a1a1a; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+    <div class="max-w-6xl mx-auto space-y-4">
+        <!-- Header -->
+        <div class="card p-8 rounded-3xl flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Weston Blake</h1>
+            <a href="mailto:kellymariewaters@gmail.com" class="bg-white text-black px-6 py-2 rounded-full font-bold text-sm">Hire Me</a>
+        </div>
+
+        <!-- Main Bento Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Hero -->
+            <div class="card p-8 rounded-3xl lg:col-span-2 space-y-4">
+                <h2 class="text-4xl font-bold">Scaling Shopify Architecture for High-End Beauty</h2>
+                <p class="text-neutral-400">Bridging the gap between luxury design and high-conversion technical engineering.</p>
+            </div>
+
+            <!-- Metric -->
+            <div class="card p-8 rounded-3xl flex flex-col justify-center">
+                <p class="text-neutral-500">Revenue Optimized</p>
+                <p class="text-5xl font-bold text-emerald-400">$289k+</p>
+            </div>
+
+            <!-- Screenshot 1 -->
+            <div class="card p-4 rounded-3xl overflow-hidden group">
+                <img src="store1.jpg" alt="Shopify Store Build" class="rounded-2xl hover:scale-105 transition-transform duration-500">
+            </div>
+
+            <!-- Screenshot 2 -->
+            <div class="card p-4 rounded-3xl overflow-hidden group">
+                <img src="store2.jpg" alt="Shopify Store Build" class="rounded-2xl hover:scale-105 transition-transform duration-500">
+            </div>
+
+            <!-- About / Tech -->
+            <div class="card p-8 rounded-3xl space-y-4">
+                <h3 class="font-bold">Core Capabilities</h3>
+                <ul class="text-sm text-neutral-400 space-y-2">
+                    <li>• OS 2.0 Storefront Design</li>
+                    <li>• Liquid Performance Tuning</li>
+                    <li>• Custom UI/UX Systems</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
