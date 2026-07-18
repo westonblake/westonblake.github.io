@@ -1,34 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { background: #000; color: #fff; font-family: 'Inter', sans-serif; }
-        .bento-card { background: #0a0a0a; border: 1px solid #1f1f1f; transition: 0.3s; }
-        .bento-card:hover { border-color: #404040; }
-    </style>
-</head>
-<body class="p-4 md:p-10">
-    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
-        <!-- Hero Card -->
-        <div class="bento-card p-8 rounded-3xl md:col-span-2 md:row-span-2 flex flex-col justify-end">
-            <h1 class="text-4xl font-bold mb-2">Shopify Architecture & Growth Lab</h1>
-            <p class="text-neutral-400">Engineering high-conversion storefronts. Precision data. Global scale.</p>
-        </div>
-        <!-- Work 1 -->
-        <div class="bento-card rounded-3xl md:col-span-2 md:row-span-2 overflow-hidden">
-            <img src="shopify results.png" class="w-full h-full object-cover" alt="Project 1">
-        </div>
-        <!-- Work 2 -->
-        <div class="bento-card rounded-3xl md:col-span-2 md:row-span-1 overflow-hidden">
-            <img src="web core vitals.png" class="w-full h-full object-cover" alt="Project 2">
-        </div>
-        <!-- CTA -->
-        <div class="bento-card p-8 rounded-3xl md:col-span-2 flex items-center justify-center">
-            <a href="mailto:your-email@example.com" class="text-lg font-semibold hover:text-blue-400">Initiate Collaboration →</a>
-        </div>
-    </div>
-</body>
-</html>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6 max-w-7xl mx-auto">
+  <!-- Header Card: High-Impact Mission -->
+  <div class="bg-neutral-950 p-10 flex flex-col justify-center rounded-2xl border border-neutral-800">
+    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tighter">Shopify Architecture & Growth Lab</h1>
+    <p class="text-neutral-400 text-lg leading-relaxed">Engineering high-conversion storefronts. Precision data. Global scale.</p>
+  </div>
+
+  <!-- Asset: Shopify Analytics -->
+  <div class="rounded-2xl overflow-hidden border border-neutral-800 bg-black">
+    <img src="shopify-analytics.jpg" class="w-full h-full object-cover hover:opacity-90 transition-opacity" alt="Shopify Growth Lab Data">
+  </div>
+
+  <!-- Asset: Traffic Source Analytics -->
+  <div class="rounded-2xl overflow-hidden border border-neutral-800 bg-black">
+    <img src="ga4-data.jpg" class="w-full h-full object-cover hover:opacity-90 transition-opacity" alt="GA4 Production Metrics">
+  </div>
+
+  <!-- Action Card: Initiate -->
+  <div class="bg-neutral-950 p-10 flex flex-col justify-end rounded-2xl border border-neutral-800 group hover:border-neutral-600 transition-colors">
+    <a href="/contact" class="text-2xl font-semibold text-white flex items-center gap-2 group-hover:gap-4 transition-all">
+      Initiate Collaboration <span>→</span>
+    </a>
+  </div>
+</div>
